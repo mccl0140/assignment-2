@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-viewport {width: device-width; scale: 1;}
+@-ms-viewport {width: device-width; scale: 1;}
+@-o-viewport {width: device-width; scale: 1;}
+@-webkit-viewport {width: device-width; scale: 1;}
+@viewport {width: device-width; scale: 1;}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+.logo {
+	width: 6rem;
+	position: relative;
+	top: 1.5rem;
+}
+
+nav ul {
+	width:100%;
+	top:20rem;
+	height:3rem;
+	list-style-type:none;
+	text-align:center;
+}
+
+nav li {
+	display:inline;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+	display:inline-block;
+	margin:0 2%;
+	text-decoration:none;
+}
+
+	
